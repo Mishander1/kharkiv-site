@@ -1,0 +1,76 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+	text-align: center;
+	padding-top: 0px;
+	font-family: "arial";
+    margin: 0;    
+}
+h1 {
+	font-size: 31px;
+}
+h3 {
+	font-size: 24px;
+	color: #1D3557;
+}
+.hero {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	background-image: url("images/kharkiv.jpeg");
+	background-size: cover;
+	width: 100%;
+	height: 343px;
+	color: white;
+	text-shadow: #331B0B 0px 0 2px;
+}
+#activities {
+	padding: 7px 20%;
+}
+#activities-items {
+	color: #1D3557;
+	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-description {
+	margin: 0;
+	background: #A8DADC;
+	background: rgba(255,255,255,0.2);
+	padding: 5px 10px;
+	border-radius: 5px;
+
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#shevchenko-park:hover {
+	width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#fantasy-park:hover {
+	width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#central-park:hover {
+	width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
